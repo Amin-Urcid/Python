@@ -1,3 +1,5 @@
+#Este programa transforma en palabras el numero que escriba el usuario.
+
 def numero_a_palabras(n):
     if n < 0:
         return "menos " + numero_a_palabras(-n)
